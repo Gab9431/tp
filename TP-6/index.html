@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulaire d’inscription</h1>
+
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="username">Nom d'utilisateur :</label></td>
+                <td><input type="text" placeholder="Entrez votre nom d'utilisateur"></td>
+            </tr>       
+
+            <tr>
+                <td><label for="pasword">Mot de passe :</label></td>
+                <td><input type="password" name="motdepasse" id=""></td>
+            </tr>
+
+            <tr>
+                <td><label for="confirmepasword">Confirmer le mot de passe :</label></td>
+                <td><input type="password" name="motdepasse" id=""></td>
+            </tr>
+
+            <tr>
+                <td><label for="mail">Adresse mail</label></td>
+                <td><input type="email" name="mail" id="" placeholder="Entrez votre adresse mail"></td>
+            </tr>
+
+            <tr>
+                <td><label for="date">Date de naissance :</label></td>
+                <td><input type="date" name="dare" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="genre">Choisir votre genre :</label></td>
+                <td>
+                    <input type="radio" id="" name="genre" value="homme" /><label for="genre">Homme</label>
+
+                    <input type="radio" id="" name="genre" value="femme" /><label for="genre">Femme</label>
+
+                    <input type="radio" id="" name="genre" value="Autre" /><label for="genre">Autre</label>
+                </td>
+            </tr>
+
+
+        </table><br>
+
+        <label for="conditions">J’accepte les conditions générales :</label>
+        <input type="checkbox" id="conditions" checked><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
