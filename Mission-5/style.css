@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+section, .contenue {
+    width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.infophoto {
+    overflow: hidden;
+}
+
+.infoperso {
+    float: left;
+    width: 70%;
+}
+
+.photo {
+    float: right;
+    width: 25%;
+    text-align: right;
+}
+
+
+.date {
+    float: left;
+    width: 30%;
+}
+
+.info {
+    float: right;
+    width: 65%;
+}
+
+.date ul, .info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.date li, .info li {
+    margin-bottom: 8px;
+}
+
+.contenue {
+    overflow: hidden;
+}
+
+p {
+    margin: 5px 0;
+}
