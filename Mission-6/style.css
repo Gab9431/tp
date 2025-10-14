@@ -209,6 +209,7 @@ nav input[type=checkbox]:checked ~ ul{
 }
 
 #menu:hover {
-  color: rgb(46, 46, 46);            
+  color: rgb(45, 45, 45);            
   text-decoration: underline;
 }
+
