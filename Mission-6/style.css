@@ -75,15 +75,15 @@ nav li:hover .submenu{
     width: 270px;
 }
 
-.menu-html:hover{
+.menu-html-css:hover{
     border-top: 5px solid #e44d26;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 
-.menu-css:hover{
+/* .menu-css:hover{
     border-top: 5px solid #0070bb;
     background-color: RGBa(000, 112, 192, 0.15);
-}
+} */
 
 .menu-js:hover{
     border-top: 5px solid #f1dc4f;
@@ -119,13 +119,13 @@ nav > ul > li:hover a{
     padding: 15px 30px 20px 30px;
 }
 
-.menu-html .submenu{
+.menu-html-css .submenu{
     background-color: RGB(230, 100, 40);
 }
 
-.menu-css .submenu{
+/* .menu-css .submenu{
     background-color: RGB(000, 160, 240);
-}
+} */
 
 .menu-js .submenu{
     background-color: RGB(251, 216, 99);
@@ -152,13 +152,13 @@ nav > ul > li:hover a{
     font-weight: bold;
 }
 
-.menu-html .submenu li:hover{
+.menu-html-css .submenu li:hover{
     background-color: RGB(210, 77, 60);
 }
 
-.menu-css .submenu li:hover{
+/* .menu-css .submenu li:hover{
     background-color: RGB(000, 115, 200);
-}
+} */
 
 .menu-js .submenu li:hover{
     background-color: RGB(200, 165, 75);
