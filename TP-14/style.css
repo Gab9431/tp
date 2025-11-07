@@ -76,7 +76,9 @@ button {
 }
 
 td > input{
-    background-color: #9b9b9b;
+    background-color: #aaaaaa;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .read{
@@ -99,4 +101,5 @@ body {
 th{
     color: rgb(0, 0, 0);
 }
+
 }
