@@ -44,6 +44,8 @@ function cdc(){
 
 }
 
+
+
 function seconnecter3(){
     var i = 0;
     do{
@@ -58,6 +60,7 @@ function seconnecter3(){
 
     if (i == 3) alert("Delai dépassé");
 }
+
 
 function ajouterligne(){
     var name = document.getElementById("nom").value;
@@ -80,3 +83,4 @@ function ajouterligne(){
         cell3.innerHTML = age;
     }
 }
+
