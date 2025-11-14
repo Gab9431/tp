@@ -8,6 +8,7 @@ div{
     display: flex;
     justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 button{
@@ -62,4 +63,5 @@ input[type="submit"], input[type="reset"]{
 #menu:hover {
   color: rgb(46, 46, 46);            
   text-decoration: underline;
+
 }
