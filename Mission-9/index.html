@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 9 - Quiz interactif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz - Grand Theft Auto</h1>
+    
+    <form id="qcmFormulaire">
+        <div class="question">
+            <p><strong>1. Quel est le nom de la ville principale où se déroule l'action de GTA V ?</strong></p>
+            <label><input type="checkbox" name="q1" value="a"> Los Santos</label><br>
+            <label><input type="checkbox" name="q1" value="b"> Vice City</label><br>
+            <label><input type="checkbox" name="q1" value="c"> Liberty City</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>2. Combien de personnages principaux jouables y a-t-il dans le mode Histoire de GTA V ?</strong></p>
+            <label><input type="checkbox" name="q2" value="a"> 1</label><br>
+            <label><input type="checkbox" name="q2" value="b"> 3</label><br>
+            <label><input type="checkbox" name="q2" value="c"> 5</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>3. Quel est le nom du chien de Franklin Clinton ?</strong></p>
+            <label><input type="checkbox" name="q3" value="a"> Trevor</label><br>
+            <label><input type="checkbox" name="q3" value="b"> Shadow</label><br>
+            <label><input type="checkbox" name="q3" value="c"> Chop</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>4. Quel personnage est passionné par le yoga et est marié à Amanda ?</strong></p>
+            <label><input type="checkbox" name="q4" value="a"> Franklin Clinton</label><br>
+            <label><input type="checkbox" name="q4" value="b"> Michael De Santa</label><br>
+            <label><input type="checkbox" name="q4" value="c"> Trevor Phillips</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>5. Quelles sont les entreprises fictives de médias sociaux ou de technologie présentes dans le jeu ? (Réponse multiple)</strong></p>
+            <label><input type="checkbox" name="q5" value="a"> LifeInvader</label><br>
+            <label><input type="checkbox" name="q5" value="b"> Bawsaq</label><br>
+            <label><input type="checkbox" name="q5" value="c"> Bleeter</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>6. Quelle est la capacité spéciale de Trevor Phillips ?</strong></p>
+            <label><input type="checkbox" name="q6" value="a"> Ralentir le temps en voiture</label><br>
+            <label><input type="checkbox" name="q6" value="b"> Compétence de tir améliorée</label><br>
+            <label><input type="checkbox" name="q6" value="c"> Entrer en mode "Rage"</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>7. Dans quelle zone Trevor Philips possède-t-il sa base principale au début du jeu ?</strong></p>
+            <label><input type="checkbox" name="q7" value="a"> Paleto Bay</label><br>
+            <label><input type="checkbox" name="q7" value="b"> Sandy Shores</label><br>
+            <label><input type="checkbox" name="q7" value="c"> Vinewood Hills</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>8. Quel est le nom du meilleur ami de Franklin qui lui donne souvent des conseils non sollicités ?</strong></p>
+            <label><input type="checkbox" name="q8" value="a"> Lester Crest</label><br>
+            <label><input type="checkbox" name="q8" value="b"> Lamar Davis</label><br>
+            <label><input type="checkbox" name="q8" value="c"> Wade Hebert</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>9. Quel est l'équivalent dans le jeu de la ville de Los Santos ?</strong></p>
+            <label><input type="checkbox" name="q9" value="a"> Los Angeles</label><br>
+            <label><input type="checkbox" name="q9" value="b"> Miami</label><br>
+            <label><input type="checkbox" name="q9" value="c"> Las Vegas</label><br>
+        </div>
+
+        <div class="question">
+            <p><strong>10. Quelles activités un joueur peut-il faire en monde ouvert (hors missions principales) ?</strong></p>
+            <label><input type="checkbox" name="q10" value="a"> Plongée sous-marine</label><br>
+            <label><input type="checkbox" name="q10" value="b"> Golf</label><br>
+            <label><input type="checkbox" name="q10" value="c"> Boxe</label><br>
+        </div>
+
+        <hr>
+
+        <div class="boutons">
+            <button type="button" onclick="testqcm()">Correction</button>
+            <button type="button" onclick="effacerReponses()">Effacer</button>
+            <button type="button" onclick="afficherCorrige()">Corrigé</button>
+        </div>
+        
+        <div id="resultat"></div>
+    </form>
+
+    <footer>
+        <a id="menu" href="../index.html">Retour menu</a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
